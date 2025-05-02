@@ -1,11 +1,9 @@
-
-
-###FarmLink Server
+Below is the README.md file for your repository:
 
 ```markdown
-# 🌾 AgriApp – Flask + PostgreSQL Backend
+# 🌾 FarmLink Server – Flask + PostgreSQL Backend
 
-AgriApp is a simple and beginner-friendly backend built with **Flask** and **PostgreSQL**. It exposes API endpoints for managing agricultural experts and communities.
+FarmLink Server is a simple and beginner-friendly backend built with **Flask** and **PostgreSQL**. It exposes API endpoints for managing agricultural experts and communities.
 
 ---
 
@@ -22,10 +20,9 @@ AgriApp is a simple and beginner-friendly backend built with **Flask** and **Pos
 ## 📁 Project Structure
 
 ```
-
-agriapp/
+farmlink-server/
 ├── app/                    # Main application folder
-│   ├── **init**.py         # Initializes app and DB
+│   ├── __init__.py         # Initializes app and DB
 │   ├── models.py           # Database models
 │   ├── routes.py           # API routes (Blueprint)
 ├── .env                    # Environment variables (not committed to Git)
@@ -33,8 +30,7 @@ agriapp/
 ├── run.py                  # Entry point
 ├── requirements.txt        # Project dependencies
 └── README.md               # You're here!
-
-````
+```
 
 ---
 
@@ -43,9 +39,9 @@ agriapp/
 ### 1. 📦 Clone the Repository
 
 ```bash
-git clone https://github.com/maluki65/community.git
-cd community
-````
+git clone https://github.com/maluki65/Farmlink-Server.git
+cd Farmlink-Server
+```
 
 ### 2. 🐍 Create & Activate a Virtual Environment
 
@@ -66,10 +62,10 @@ venv\Scripts\activate
 
 ### 3. 📄 Create a `.env` File
 
-Inside the root directory (`community/`), create a `.env` file with the following content:
+Inside the root directory (`Farmlink-Server/`), create a `.env` file with the following content:
 
 ```env
-DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/agriapp
+DATABASE_URL=postgresql://postgres:yourpassword@localhost:5432/farmlink
 SECRET_KEY=supersecretkey
 ```
 
@@ -90,7 +86,7 @@ Make sure PostgreSQL is installed and running. Then:
 psql -U postgres
 
 # Inside the PostgreSQL prompt:
-CREATE DATABASE agriapp;
+CREATE DATABASE farmlink;
 \q
 ```
 
@@ -160,17 +156,9 @@ You can install them via:
 pip install flask flask_sqlalchemy python-dotenv psycopg2-binary
 ```
 
-
-
 ---
 
 ## 📃 License
 
 This project is open-source and free to use under the [MIT License](LICENSE).
-
-```
-
----
-
-Would you like me to generate a sample `requirements.txt` as well?
 ```
