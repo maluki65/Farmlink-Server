@@ -1,6 +1,6 @@
-Here’s a beginner-friendly `README.md` file for your Flask + PostgreSQL project, assuming the project is called **AgriApp**:
 
----
+
+###FarmLink Server
 
 ```markdown
 # 🌾 AgriApp – Flask + PostgreSQL Backend
